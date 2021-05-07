@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    html,
+    body,
+    header,
+    .carousel {
+      height: 70vh;
+    }
+
+    @media (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and(max-width:850px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+  </style>
+
+  <script src="index.js"></script>
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand waves-effect">
+        <strong class="orange-text">PURE</strong>
+      </a>
+      <button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link waves-effect">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">Home</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">
+              <span class="badge red z-depth-1 mr-1">13</span>
+              <i class="fa fa-shopping-cart"></i>
+              <span class="clearfix d-none d-sm-inline-block">Cart</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect border border-light rounded waves-effect">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Создание карусели -->
+  <div id="carousel-ex" class="carousel slide carousel-fade pt-4" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+      <li data-target="#carousel-ex" data-slide-to="1"></li>
+      <li data-target="#carousel-ex" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+
+
+        <div class="view" style="background-image: url('https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+        background-repeat: no-repeat; background-size: cover;">
+          <div class="mask rgba-black-strong d-flex 
+        justify-content-center align-items-center">
+
+            <div class="text-center white-text mx-5 wow fadeIn">
+
+              <h1 class="mb-4">
+                <strong>PURE</strong>
+              </h1>
+
+              <p>
+                <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, dolorem.
+                </strong>
+              </p>
+              <p class="mb-4 d-none d-md-block">
+                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quae asperiores consectetur numquam qui nulla!</strong>
+              </p>
+              <a href="#" class="btn btn-outline-white btn-lg">
+                Lorem, ipsum dolor. <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://images.pexels.com/photos/4065876/pexels-photo-4065876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-repeat: no-repeat; background-size: cover;">
+          <div class="mask rgba-black-strong d-flex 
+        justify-content-center align-items-center">
+
+            <div class="text-center white-text mx-5 wow fadeIn">
+
+              <h1 class="mb-4">
+                <strong>PURE</strong>
+              </h1>
+
+              <p>
+                <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, dolorem.</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quae asperiores consectetur numquam qui nulla!</strong>
+              </p>
+              <a href="#" class="btn btn-outline-white btn-lg">
+                Lorem, ipsum dolor. <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://images.pexels.com/photos/1376201/pexels-photo-1376201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-repeat: no-repeat; background-size: cover;">
+          <div class="mask rgba-black-strong d-flex 
+        justify-content-center align-items-center">
+
+            <div class="text-center white-text mx-5 wow fadeIn">
+
+              <h1 class="mb-4">
+                <strong>PURE</strong>
+              </h1>
+
+              <p>
+                <strong>Lorem ipsum doertertertertertpisicing elit. Qui, dolorem.</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quae asperiores consectetur numquam qui nulla!</strong>
+              </p>
+              <a href="#" class="btn btn-outline-white btn-lg">
+                Lorem, ipsum dolor. <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Стрелки -->
+    <a href="#carousel-ex" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+
+    <a href="#carousel-ex" class="carousel-control-next" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+
+  </div>
+
+  <main>
+    <div class="container">
+
+      <!-- search bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark 
+      mdb-color lighten-3 mt-3 mb-5">
+
+        <span class="navbar-brand">Categoies:</span>
+
+        <button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#nextNav"
+          aria-controls="nextNav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nextNav">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+              <a href="#" class="nav-link" id="sort-all">All</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" id="sort-computers">Computers</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" id="sort-phones">Mobile phones</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" id="sort-airpods">Airpods</a>
+            </li>
+          </ul>
+
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input type="text" class="form-control mr-sm-5" placeholder="Search" aria-label="Search">
+            </div>
+          </form>
+        </div>
+      </nav>
+
+
+      <!-- grid -->
+      <section class="text-center mb-4">
+        <div class="row wow fadeIn", id="mainDiv">
+
+          <script>
+            
+            var div_element = document.getElementById("mainDiv");
+
+            function fifth() {
+              a.printProduct(a.getPosts('Date'));
+            }
+            var element_sort_all = document.getElementById("sort-all");
+            element_sort_all.addEventListener('click', fifth);
+
+            function first() {
+              a.printProduct(a.getPosts('computers'));
+            }
+            var element_sort_all = document.getElementById("sort-computers");
+            element_sort_all.addEventListener('click', first);
+
+            function second() {
+              a.printProduct(a.getPosts('phones'));
+            }
+            var element_sort_all = document.getElementById("sort-phones");
+            element_sort_all.addEventListener('click', second);
+
+            function third() {
+              a.printProduct(a.getPosts('airpods'));
+            }
+            var element_sort_all = document.getElementById("sort-airpods");
+            element_sort_all.addEventListener('click', third);
+
+
+          
+          </script>
+
+          </div>
+
+      </section>
+
+      <!-- arrows and numbers -->
+      <nav class="d-flex justify-content-center wow fadeIn">
+        <ul class="pagination pg-blue">
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">1</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">2</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">3</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="page-footer text-center fond-small mt-4 wow fadeIn">
+    <div class="pt-4">
+      <a href="#" role="button" class="btn btn-outline-white">PURE
+        <i class="fa fa-graduation-cap ml-2"></i>
+      </a>
+
+      <a href="#" role="button" class="btn btn-outline-white">Online shop
+        <i class="fa fa-graduation-cap ml-2"></i>
+      </a>
+    </div>
+    <hr class="my-4">
+    <div class="pb-4">
+      <a href="#">
+        <i class="fab fa-facebook mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-google-plus mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+
+    </div>
+
+    <div class="footer-copyright py-3">
+      PURE - Найдович
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  
+  <!-- <script type="text/javascript">
+    var a = document.getElementById('disc-50');
+    a.onclick = function () {
+      Clipboard_CopyTo("T9TTVSQB");
+      var div = document.getElementById('code-success');
+      div.style.display = 'block';
+      setTimeout(function () {
+        document.getElementById('code-success').style.display = 'none';
+      }, 900);
+    };
+
+    function Clipboard_CopyTo(value) {
+      var tempInput = document.createElement("input");
+      tempInput.value = value;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand("copy");
+      document.body.removeChild(tempInput);
+    }
+  </script> -->
+
+
+  <script>
+    $(document).ready(function () {
+      new WOW().init();
+    });
+  </script>
+
+
+</body>
+
+</html>

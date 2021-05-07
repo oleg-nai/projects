@@ -1,0 +1,11 @@
+commit dd8e994300c902e390bc30f8ce9e00649ed8ba47 (HEAD -> master)
+Author: oleg_nai <o.naidovich@gmail.com>
+Date:   Sun Feb 14 18:02:39 2021 +0300
+
+    add task1/status.txt
+
+commit 0f9b45d7d3afe055f1cb661b5d933daab8f7c196
+Author: oleg_nai <o.naidovich@gmail.com>
+Date:   Sun Feb 14 18:00:23 2021 +0300
+
+    add .gitignore

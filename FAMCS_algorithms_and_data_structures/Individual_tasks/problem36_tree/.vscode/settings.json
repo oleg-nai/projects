@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "*.ipunb": "jupyter",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "fstream": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xmemory": "cpp",
+        "cmath": "cpp",
+        "deque": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "stack": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "xlocnum": "cpp",
+        "xstring": "cpp",
+        "xtr1common": "cpp",
+        "xutility": "cpp",
+        "exception": "cpp",
+        "iosfwd": "cpp",
+        "streambuf": "cpp"
+    }
+}

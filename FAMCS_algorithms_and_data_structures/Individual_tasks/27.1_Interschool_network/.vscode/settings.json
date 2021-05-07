@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.ipunb": "jupyter",
+        "xutility": "cpp",
+        "initializer_list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "algorithm": "cpp"
+    }
+}

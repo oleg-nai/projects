@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.ipunb": "jupyter",
+        "iosfwd": "cpp"
+    }
+}

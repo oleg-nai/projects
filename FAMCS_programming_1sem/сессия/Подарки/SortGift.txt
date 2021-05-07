@@ -1,0 +1,11 @@
+gift не бракованные вещи: 
+New_iphone_4 15.26
+barbi_for_girls 51.52
+gifts_for_kids 50.61
+sousages_for_dinner 30.25
+
+
+Бракованные вещи: 
+Iphone_11 515.51
+New_iphone_4 15.26
+barbi_for_girls 51.52

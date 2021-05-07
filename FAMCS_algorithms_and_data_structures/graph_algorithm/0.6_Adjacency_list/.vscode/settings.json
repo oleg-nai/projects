@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.ipunb": "jupyter",
+        "set": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
+    }
+}
